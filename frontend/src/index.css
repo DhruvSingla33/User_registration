@@ -1,0 +1,39 @@
+:root {
+
+  background-color: #f6fafb;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 12px var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+}
+
+
+
+ul.books h3 {
+  font-weight: 500;
+}
+
+
+.bookdetails {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.col-1 { flex: 1; }
+.col-2 { flex: 2; } 
+
